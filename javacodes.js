@@ -1,22 +1,31 @@
 
 var myQuestions = [
     {
-        question: "What is 10/2?",
+        question: "What is the shortform of HTML?",
         answers: {
-            a: '3',
-            b: '5',
-            c: '115'
+            a: 'HTML',
+            b: 'HMLT',
+            c: 'MLHT'
         },
-        correctAnswer: 'b'
+        correctAnswer: 'a'
     },
     {
-        question: "What is 30/3?",
+        question: "What is the other of JavaScript?",
         answers: {
-            a: '3',
-            b: '5',
-            c: '10'
+            a: 'ECMAscript',
+            b: 'JS',
+            c: 'I dont know'
         },
-        correctAnswer: 'c'
+        correctAnswer: 'a'
+    },
+    {
+        question: "Is C++ a low level language?",
+        answers: {
+            a: 'Yes',
+            b: 'No',
+           
+        },
+        correctAnswer: 'b'
     }
 ];
 
