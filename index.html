@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="styles.css" type="text/css">
-    <script src="javacodes.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="javacodes.js"></script>
     <title>QUIZ BOARD</title>
 </head>
 <body>
@@ -29,8 +30,14 @@
       <input type="radio" id="mc" name="4" value="a"> True<br>
       <input type="radio" id="mc" name="4" value="b"> False<br>
       <input type="radio" id="mc" name="4" value="c"> Only when necessary</br><br>
-     <button id="submit">Get Results</button>
-     <div id="results"></div>
+      
+      <input id= "button" type = "button" value = "Submit" onclick= "check()">
+    </form>
+    <div id = "after_submit">
+    <p id = "number_count"></p>
+    </div>
+    </div>
+    </div>
 </body>
 </html>
 
