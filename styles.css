@@ -15,7 +15,7 @@ body{
   text-decoration: overline;
   }
   #quiz {
-    background: grey;
+    background: whitesmoke;
     padding: 20px 30px 20px 30px;
     width: 600px;
     border-radius: 20px;
@@ -38,7 +38,6 @@ body{
   #button:hover{
     background: white;
     border: 1px solid green;
-    color: black
     color: black;
     cursor: pointer;
   }
