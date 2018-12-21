@@ -1,49 +1,49 @@
 function check(){
 
-    var A1 = document.quiz.A1.value;
-    var A2 = document.quiz.A2.value;
-    var A3 = document.quiz.A3.value;
-    var A4 = document.quiz.A4.value;
-    var A5 = document.quiz.A5.value;
-    var A6 = document.quiz.A6.value;
-    var A7 = document.quiz.A7.value;
-    var A8 = document.quiz.A8.value;
-    var A9 = document.quiz.A9.value;
-    var A10 = document.quiz.A10.value;
-    var A11 = document.quiz.A11.value;
+    var qnOne = document.quiz.qnOne.value;
+    var qnTwo = document.quiz.qnTwo.value;
+    var qnThree = document.quiz.qnThree.value;
+    var qnFour = document.quiz.qnFour.value;
+    var qnFive = document.quiz.qnFive.value;
+    var qnSix = document.quiz.qnSix.value;
+    var qnSeven = document.quiz.qnSeven.value;
+    var qnEight = document.quiz.qnEight.value;
+    var qnNine = document.quiz.qnNine.value;
+    var qnTen = document.quiz.qnTen.value;
+    var qnEleven = document.quiz.qnEleven.value;
     var count=0;
 
-        if (A1 == "b") {        
+        if (qnOne == "b") {        
           count+=1;
         }
-        if (A2 == "c"){
+        if (qnTwo == "c"){
           count+=1;
         }
-        if (A3 == "a"){
+        if (qnThree == "a"){
           count+=1;
         }
-        if (A4 == "a"){
+        if (qnFour == "a"){
           count+=1;
         }
-        if (A5 == "b"){
+        if (qnFive == "b"){
             count+=1;
           }
-        if (A6 == "a") {    
+        if (qnSix == "a") {    
                 count+=1;
           }
-        if (A7 == "a"){
+        if (qnSeven == "a"){
             count+=1;
           }
-        if (A8 == "b"){
+        if (qnEight == "b"){
             count+=1;
           }
-        if (A9== "a"){
+        if (qnNine== "a"){
             count+=1;
           }
-        if (A10 == "b"){
+        if (qnTen == "b"){
               count+=1;
             }
-        if (A11 == "a"){
+        if (qnEleven == "a"){
                 count+=1;
               }
 
