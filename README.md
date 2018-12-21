@@ -11,19 +11,24 @@ This webpage containing questions about JavaScript that allows the user to answe
 
 ## Technologies Used
 
-*HTML 
-*CSS 
-*JavaScript 
-*jQuery 
-*Bootstrap
+* HTML 
+* CSS 
+* JavaScript 
+* jQuery 
+* Bootstrap
 
 ## Setup/Installation 
-Open the your computer
-Insert the link provided in the description of this repository.
-Answer the questions that you think are accurate by tapping the radio button next to the answer .
-After answering all the questions, hit the submit button. 
-Your grades will appear out of 11 since all questions have 1 mark.
-To retake the quiz , refresh the webpage.
+* Open the your computer
+
+* Insert the link provided in the description of this repository. 
+
+* Answer the questions that you think are accurate by tapping the radio button next to the answer .
+
+* After answering all the questions, hit the submit button. 
+
+* Your grades will appear out of 11 since all questions have 1 mark.
+
+* To retake the quiz , refresh the webpage.
 
 ## BDD
 
