@@ -11,10 +11,17 @@ body{
   }
   h1{
   font-family: 'Fruktur', cursive;
-  color: whitesmoke;
+  color:  black;
   font-size: 50px;
   text-decoration: underline;
   }
+  h2{
+    font-family: 'Fruktur', cursive;
+    color: white;
+    font-size: 50px;
+    text-decoration: underline;
+    }
+  
   #quiz {
     background: black;
     padding: 20px 30px 20px 30px;
@@ -35,6 +42,8 @@ body{
     transition-duration: .5s;
     margin-top: 15px;
     font-size: 30px;
+    text-align: center;
+    
   }
   #button:hover{
     background: white;
@@ -49,7 +58,7 @@ body{
     width: 400px;
     border-radius: 20px;
     font-size: 30px;
-    text-align: center;
+    background-position: center
   }
   #mc {
     display: inline-block;

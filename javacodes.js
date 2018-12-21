@@ -14,46 +14,43 @@ function check(){
     var count=0;
 
         if (A1 == "b") {        
-          count+=25;
+          count+=1;
         }
         if (A2 == "c"){
-          count+=25;
+          count+=1;
         }
         if (A3 == "a"){
-          count+=25;
+          count+=1;
         }
         if (A4 == "a"){
-          count+=25;
+          count+=1;
         }
         if (A5 == "b"){
-            count+=25;
+            count+=1;
           }
         if (A6 == "a") {    
-                count+=25;
+                count+=1;
           }
         if (A7 == "a"){
-            count+=25;
+            count+=1;
           }
         if (A8 == "b"){
-            count+=25;
+            count+=1;
           }
         if (A9== "a"){
-            count+=25;
+            count+=1;
           }
         if (A10 == "b"){
-              count+=25;
+              count+=1;
             }
-        if (q11 == "a"){
-                count+=25;
+        if (A11 == "a"){
+                count+=1;
               }
-        if (q12 == "c"){
-                  count+=25;
-                }
-                
+
 
     document.getElementById("after_submit").style.visibility ="visible";
   
-    document.getElementById("number_count").innerHTML = "You got " +count + "%.";
+    document.getElementById("number_count").innerHTML = "You got " + count + "/11.";
   
     $("#button").hide();
     $("#quiz").hide();
