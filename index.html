@@ -1,71 +1,70 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <link href="bootstrap.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="utf-8" />
+    <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
     <script type="text/javascript" src="javacodes.js"></script>
     <title>QUIZ BOARD</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-    <div class="jumbotron">
-    <h1>QUIZ BOARD</br><br></h1>
-    <form id = "quiz" name ="quiz">
-      <h2>JAVASCRIPT</br><br></h2>
-      <p>Give your best!!</p>
-      A1. What is NaN?<br>
-        <input type="radio" id="mc" name="qnOne" value="a"> 100<br>
-        <input type="radio" id="mc" name="qnOne" value="b"> Not a number<br>
-        <input type="radio" id="mc" name="qnOne" value="c"> None</br><br>
-      A2.Which one the three is used in styling?<br>
-        <input type="radio" id="mc" name="qnTwo" value="a"> HTML<br>
-        <input type="radio" id="mc" name="qnTwo" value="b"> Java<br>
-        <input type="radio" id="mc" name="qnTwo" value="c"> CSS</br><br>
-      A3.Developers are awesome geniuses.<br>
-        <input type="radio" id="mc" name="qnThree" value="a"> True<br>
-        <input type="radio" id="mc" name="qnThree" value="b"> False</br><br>
-      A4. Which company developed JavaScript?<br>
-      <input type="radio" id="mc" name="qnFour" value="a"> Netscape<br>
-      <input type="radio" id="mc" name="qnFour" value="b"> Twitter<br>
-      <input type="radio" id="mc" name="qnFour" value="c"> Facebook</br><br>
-      A5.Global variables have scopes.<br>
-      <input type="radio" id="mc" name="qnFive" value="a"> True<br>
-      <input type="radio" id="mc" name="qnFive" value="b"> False</br><br> 
-      A6. Can comments be inserted in Javascript?<br>
-      <input type="radio" id="mc" name="qnSix" value="a"> Yes<br>
-      <input type="radio" id="mc" name="qnSix" value="b"> No</br><br>
-      A7. Booleans are values that can be either true or false.<br>
-      <input type="radio" id="mc" name="qnSeven" value="a"> True <br>
-      <input type="radio" id="mc" name="qnSeven" value="b"> False</br><br>
-      A8. Strings and numbers are exactly the same .<br>
-      <input type="radio" id="mc" name="qnEight" value="a"> True<br>
-      <input type="radio" id="mc" name="qnEight" value="b"> False</br><br>
-      A9. JavaScript and Java are both programming language?<br>
-      <input type="radio" id="mc" name="qnNine" value="a"> True<br>
-      <input type="radio" id="mc" name="qnNine" value="b"> False</br><br>
-      A10. How do you create a function in JavaScript?<br>
-      <input type="radio" id="mc" name="qnTen" value="a"> function = myFunction()<br>
-      <input type="radio" id="mc" name="qnTen" value="b"> function myFunction()<br>
-      <input type="radio" id="mc" name="qnTen" value="c"> function:myFunction()</br><br>
-      A11. What is the other name for JavaScript?<br>
-      <input type="radio" id="mc" name="qnEleven" value="a"> ECMAScript<br>
-      <input type="radio" id="mc" name="qnEleven" value="b"> JAVA<br>
-      <input type="radio" id="mc" name="qnEleven" value="c"> I don't know</br><br>
-      
-      <input id= "button" type = "submit" value = "Submit" onclick= "check()">
-    </form>
+      <div class="jumbotron">
+        <h1>QUIZ BOARD</h1>
+        <form id="quiz" name="quiz">
+          <h2>JAVASCRIPT</h2>
+          <p>Give your best!!</p>
+          A1. What is NaN?
+          <input type="radio" id="mc" name="qnOne" value="a" /> 100
+          <input type="radio" id="mc" name="qnOne" value="b" /> Not a number
+          <input type="radio" id="mc" name="qnOne" value="c" /> None A2.Which
+          one the three is used in styling?
+          <input type="radio" id="mc" name="qnTwo" value="a" /> HTML
+          <input type="radio" id="mc" name="qnTwo" value="b" /> Java
+          <input type="radio" id="mc" name="qnTwo" value="c" /> CSS
+          A3.Developers are awesome geniuses.
+          <input type="radio" id="mc" name="qnThree" value="a" /> True
+          <input type="radio" id="mc" name="qnThree" value="b" /> False A4.
+          Which company developed JavaScript?
+          <input type="radio" id="mc" name="qnFour" value="a" /> Netscape
+          <input type="radio" id="mc" name="qnFour" value="b" /> Twitter
+          <input type="radio" id="mc" name="qnFour" value="c" /> Facebook
+          A5.Global variables have scopes.
+          <input type="radio" id="mc" name="qnFive" value="a" /> True
+          <input type="radio" id="mc" name="qnFive" value="b" /> False A6. Can
+          comments be inserted in Javascript?
+          <input type="radio" id="mc" name="qnSix" value="a" /> Yes
+          <input type="radio" id="mc" name="qnSix" value="b" /> No A7. Booleans
+          are values that can be either true or false.
+          <input type="radio" id="mc" name="qnSeven" value="a" /> True
+          <input type="radio" id="mc" name="qnSeven" value="b" /> False A8.
+          Strings and numbers are exactly the same .
+          <input type="radio" id="mc" name="qnEight" value="a" /> True
+          <input type="radio" id="mc" name="qnEight" value="b" /> False A9.
+          JavaScript and Java are both programming language?
+          <input type="radio" id="mc" name="qnNine" value="a" /> True
+          <input type="radio" id="mc" name="qnNine" value="b" /> False A10. How
+          do you create a function in JavaScript?
+          <input type="radio" id="mc" name="qnTen" value="a" /> function =
+          myFunction()
+          <input type="radio" id="mc" name="qnTen" value="b" /> function
+          myFunction()
+          <input type="radio" id="mc" name="qnTen" value="c" />
+          function:myFunction() A11. What is the other name for JavaScript?
+          <input type="radio" id="mc" name="qnEleven" value="a" /> ECMAScript
+          <input type="radio" id="mc" name="qnEleven" value="b" /> JAVA
+          <input type="radio" id="mc" name="qnEleven" value="c" /> I don't know
 
-    <div id = "after_submit">
-    <p id = "number_count"></p>
-    </div>
-    </div>
+          <input id="button" type="submit" value="Submit" onclick="check()" />
+        </form>
 
+        <div id="after_submit"><p id="number_count"></p></div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
-
-
-
-
