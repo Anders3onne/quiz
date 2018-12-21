@@ -30,7 +30,7 @@ To retake the quiz , refresh the webpage.
 | Behavior | Input | Output |
 | :----:   |  :------------: | :---------------|
 |It can determine if theres no provided answer |  no answered questions| 0 (No mark not awarded) |
-|It can determine if the provided answer is correct |  right answer | 25 (25 Marks awarded)  | 
+|It can determine if the provided answer is correct |  right answer | 11 (11 Marks awarded)  | 
 |t can determine if the provided answer is wrong  | Wrong answer | 0  |
 
 ## Known Issues
