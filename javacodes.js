@@ -22,31 +22,31 @@ function check(){
         if (A3 == "a"){
           count+=25;
         }
-        if (A4 == "c"){
+        if (A4 == "a"){
           count+=25;
         }
-        if (A4 == "c"){
+        if (A5 == "b"){
             count+=25;
           }
-        if (A5 == "c") {    
+        if (A6 == "a") {    
                 count+=25;
           }
-        if (A6 == "c"){
+        if (A7 == "a"){
             count+=25;
           }
-        if (A7 == "b"){
+        if (A8 == "b"){
             count+=25;
           }
-        if (A8== "c"){
+        if (A9== "a"){
             count+=25;
           }
-        if (A9 == "c"){
+        if (A10 == "b"){
               count+=25;
             }
-        if (q10 == "c"){
+        if (q11 == "a"){
                 count+=25;
               }
-        if (q11 == "c"){
+        if (q12 == "c"){
                   count+=25;
                 }
                 
