@@ -1,5 +1,6 @@
 body{
     font-family: 'Lobster', cursive;
+    color:white;
     font-size: 30px;
     opacity: 0.9;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDMYES5iuHteB66-9FbTvpXT09IT0PNKOhZpbu_F7E9YNBTnVF);
@@ -10,12 +11,12 @@ body{
   }
   h1{
   font-family: 'Fruktur', cursive;
-  color: black;
+  color: whitesmoke;
   font-size: 50px;
-  text-decoration: overline;
+  text-decoration: underline;
   }
   #quiz {
-    background: whitesmoke;
+    background: black;
     padding: 20px 30px 20px 30px;
     width: 600px;
     border-radius: 20px;
@@ -26,7 +27,7 @@ body{
   
   }
   #button {
-    background: green;
+    background: crimson;
     border: none;
     border-radius: 5px;
     padding: 10px;
@@ -37,7 +38,7 @@ body{
   }
   #button:hover{
     background: white;
-    border: 1px solid green;
+    border: 1px solid crimson;
     color: black;
     cursor: pointer;
   }
